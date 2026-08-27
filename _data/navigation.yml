@@ -1,19 +1,25 @@
-# main links links
+# main links
 main:
+  - title: "Projects"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
-    
-  - title: "Research"
-    url: /research/
 
   - title: "Teaching"
     url: /teaching/
+  
+  - title: "Achievements"
+    url: /achievements/
+  
+  - title: "Selected Works"
+    url: /selected_works/
+  
+  - title: "Gallery"
+    url: /gallery/
 
-  - title: "Software"
-    url: /software/
+  - title: "CV"
+    url: /cv/
 
   - title: "Posts"
     url: /posts/
-    
-  - title: "CV"
-    url: /cv/

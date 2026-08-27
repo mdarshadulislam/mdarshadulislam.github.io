@@ -1,26 +1,31 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TPGTSZS7Q3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=20201130">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ base_path }}/images/apple-touch-icon-114x114.png?v=20201130">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ base_path }}/images/apple-touch-icon-120x120.png?v=20201130">
-<link rel="apple-touch-icon" sizes="144x144" href="{{ base_path }}/images/apple-touch-icon-144x144.png?v=20201130">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ base_path }}/images/apple-touch-icon-152x152.png?v=20201130">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=20201130">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png?v=20201130" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png?v=20201130" sizes="192x192">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=20201130" sizes="16x16">
-<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=20201130">
-<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=20201130" color="#000000">
-<link rel="shortcut icon" href="/images/favicon.ico?v=20201130">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-150x150.png?v=20201130">
-<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=20201130">
-<meta name="theme-color" content="#ffffff">
+  gtag('config', 'G-TPGTSZS7Q3');
+</script>
+
+<!-- ==========================================
+     Favicons
+     ========================================== -->
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicons/favicon.svg">
+<link rel="apple-touch-icon" href="{{ base_path }}/images/favicons/apple-touch-icon.png">
+<link rel="shortcut icon" href="{{ base_path }}/images/favicons/favicon.ico">
+
+<!-- ==========================================
+     FontAwesome & Academicons
+     ========================================== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<!-- ==========================================
+     MathJax Configuration
+     ========================================== -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     TeX: {
@@ -36,4 +41,256 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<!-- end custom head snippets -->
+<!-- ==========================================
+     Sticky Navigation Header + TOC offset
+     ========================================== -->
+<style>
+  .masthead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000 !important;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eef0f2;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .sidebar__right.sticky,
+    .toc.sticky,
+    .toc--sticky {
+      top: 70px !important;
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+    }
+  }
+</style>
+
+<!-- ==========================================
+     Gallery Carousel
+     ========================================== -->
+<style>
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    margin: 24px auto;
+  }
+
+  .carousel-track {
+    display: flex !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .carousel-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel-slide {
+    flex: 0 0 100% !important;
+    min-width: 100% !important;
+    scroll-snap-align: start;
+    text-align: center;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    border: 1px solid #eef0f2;
+    border-radius: 6px;
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease-in-out;
+  }
+
+  .carousel-btn:hover {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  .carousel-btn.prev { left: 12px; }
+  .carousel-btn.next { right: 12px; }
+
+  .carousel-hint {
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+    font-size: 0.85em;
+    color: #666;
+  }
+</style>
+
+<!-- ==========================================
+     CSS-Only Lightbox (no JS)
+     ========================================== -->
+<style>
+  /* 
+     FIX APPLIED: Changed to position: fixed and top: 50%.
+     This stops the browser from scrolling the page up to 
+     "find" the hidden input when a label is clicked. 
+  */
+  .lightbox-radio {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    margin: 0;
+  }
+
+  /* Lightbox shell — hidden by default, must be the NEXT SIBLING of its radio */
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999 !important;   /* raised well past any theme chrome */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lightbox-radio:checked + .lightbox {
+    display: flex;
+  }
+
+  .lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.92);
+    cursor: zoom-out;
+  }
+
+  .lightbox-content {
+    position: relative;
+    z-index: 100000;
+    max-width: 94vw;
+    max-height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Full, un-cropped image inside the modal — overrides the 16:9 thumbnail crop */
+  .carousel-slide .lightbox-content img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 88vh;
+    aspect-ratio: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: -48px;
+    right: -8px;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.75;
+    padding: 8px;
+    transition: opacity 0.2s ease;
+  }
+  .lightbox-close:hover {
+    opacity: 1;
+  }
+
+  .carousel-img-trigger {
+    cursor: zoom-in;
+    display: block;
+  }
+  .carousel-img-trigger img {
+    transition: opacity 0.2s ease;
+  }
+  .carousel-img-trigger:hover img {
+    opacity: 0.82;
+  }
+
+  /* ==========================================
+     FIX: force the sticky masthead to yield
+     whenever any lightbox is actually open.
+     ========================================== */
+  body:has(.lightbox-radio:checked:not(#lb-none)) .masthead {
+    z-index: 1 !important;
+    visibility: hidden;
+  }
+
+  body:has(.lightbox-radio:checked:not(#lb-none)) {
+    overflow: hidden;
+  }
+</style>
+
+<!-- ==========================================
+     JavaScript for Esc Key & Jump Prevention
+     ========================================== -->
+<script>
+  // 1. Esc Key Support
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape" || e.key === "Esc") {
+      const resetBtn = document.getElementById("lb-none");
+      if (resetBtn) resetBtn.checked = true;
+    }
+  });
+
+  // 2. Prevent Page Jump when clicking the Close 'X' or Backdrop
+  document.addEventListener("click", function(e) {
+    // If the element clicked has the close or backdrop class...
+    if (e.target.matches('.lightbox-close') || e.target.matches('.lightbox-backdrop')) {
+      // If it happens to be an anchor link, stop the URL change/page jump!
+      if (e.target.tagName.toLowerCase() === 'a') {
+        e.preventDefault();
+        const resetBtn = document.getElementById("lb-none");
+        if (resetBtn) resetBtn.checked = true;
+      }
+    }
+  });
+</script>
+<style>
+  /* Bulletproof offset for TOC links (Overrides theme JavaScript) */
+  h2[id], 
+  h3[id], 
+  h4[id] {
+    padding-top: 75px !important;
+    margin-top: -75px !important;
+    pointer-events: auto; /* Ensures links inside the heading still work */
+  }
+</style>
+
+<!---
+<style>
+  /* Prevent the sticky masthead from covering anchor-jump targets */
+  h2[id],
+  h3[id],
+  span[id] {
+    scroll-margin-top: 90px;   /* roughly masthead height + a little breathing room */
+  }
+</style>
