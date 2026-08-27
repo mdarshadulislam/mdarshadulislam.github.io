@@ -284,18 +284,24 @@
     pointer-events: auto; /* Ensures links inside the heading still work */
   }
 </style>
-<style>
-  /* Existing TOC offset styles are here */
 
-  /* Force navigation links to reappear when resizing back to desktop */
+
+
+
+
+
+
+<!---
+<style>
+  /* Force navigation links to reappear when resizing back to desktop without breaking the header layout */
   @media screen and (min-width: 64em) {
-    .masthead__menu,
-    .masthead__menu-item,
-    .visible-links {
-      display: block !important;
-    }
-    .visible-links {
+    nav.greedy-nav .visible-links {
       display: flex !important;
+    }
+    
+    /* Ensure the mobile toggle button hides on desktop */
+    nav.greedy-nav .greedy-nav__toggle {
+      display: none !important;
     }
   }
 </style>
