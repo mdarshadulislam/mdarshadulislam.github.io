@@ -284,13 +284,18 @@
     pointer-events: auto; /* Ensures links inside the heading still work */
   }
 </style>
-
-<!---
 <style>
-  /* Prevent the sticky masthead from covering anchor-jump targets */
-  h2[id],
-  h3[id],
-  span[id] {
-    scroll-margin-top: 90px;   /* roughly masthead height + a little breathing room */
+  /* Existing TOC offset styles are here */
+
+  /* Force navigation links to reappear when resizing back to desktop */
+  @media screen and (min-width: 64em) {
+    .masthead__menu,
+    .masthead__menu-item,
+    .visible-links {
+      display: block !important;
+    }
+    .visible-links {
+      display: flex !important;
+    }
   }
 </style>

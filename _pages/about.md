@@ -50,7 +50,7 @@ Before joining academia, I worked as an Assistant Urban Planner at [Sheltech Con
 
 <div style="display: flex; align-items: flex-start; margin: 20px 0;">
   <div style="width: 70px; min-width: 70px; margin-right: 15px; text-align: center;">
-    <img src="/images/logos/scpl.JPG" alt="Sheltech" style="max-height: 50px; width: auto; object-fit: contain;">
+    <img src="/images/logos/scpl.jpg" alt="Sheltech" style="max-height: 50px; width: auto; object-fit: contain;">
   </div>
   <div>
     <strong style="font-size: 1.15em;">Assistant Urban Planner</strong> — <em>Sheltech Consultants (Pvt.) Ltd.</em><br>
@@ -68,7 +68,7 @@ Before joining academia, I worked as an Assistant Urban Planner at [Sheltech Con
 
 <div style="display: flex; align-items: flex-start; margin: 20px 0;">
   <div style="width: 70px; min-width: 70px; margin-right: 15px; text-align: center;">
-    <img src="/images/logos/planted.JPEG" alt="PlanTED" style="max-height: 50px; width: auto; object-fit: contain;">
+    <img src="/images/logos/planted.jpeg" alt="PlanTED" style="max-height: 50px; width: auto; object-fit: contain;">
   </div>
   <div>
     <strong style="font-size: 1.15em;">Facilitator</strong> — <em>PlanTED Consulting and Services</em><br>
