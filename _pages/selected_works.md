@@ -31,7 +31,7 @@ redirect_from:
 <p align="center">
   <iframe src="/files/pdf/presentations/thesis_presentation.pdf" style="width: 100%; max-width: 80%; height: 450px; border: 1px solid #eef0f2; border-radius: 6px;"></iframe>
   <br>
-  <a href="/files/pdf/presentations/Thesis_presentation.pdf" target="_blank">Download Thesis Slides (PDF)</a>
+  <a href="/files/pdf/presentations/thesis_presentation.pdf" target="_blank">Download Thesis Slides (PDF)</a>
 </p>
 
 ---
