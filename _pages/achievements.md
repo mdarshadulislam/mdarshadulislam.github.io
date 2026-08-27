@@ -55,7 +55,7 @@ redirect_from:
 * **Links:** [[View Certificate](https://www.freecodecamp.org/certification/mdarshadulislam/responsive-web-design)] | [[View Projects](https://github.com/mdarshadulislam/freecodecamp_responsivewebdesign_projects)]
 
 <p align="center">
-  <img src="/images/certificates/freecodecamp1.png" alt="freeCodeCamp Certification" style="max-width: 80%; height: auto; border: 1px solid #eef0f2; border-radius: 6px; margin-top: 10px;">
+  <img src="/images/certificates/freecodecamp1.PNG" alt="freeCodeCamp Certification" style="max-width: 80%; height: auto; border: 1px solid #eef0f2; border-radius: 6px; margin-top: 10px;">
   <br>
   <small><em>Figure 3: freeCodeCamp Responsive Web Design certification.</em></small>
 </p>
