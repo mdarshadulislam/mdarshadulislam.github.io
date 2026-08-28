@@ -77,7 +77,7 @@ social:
 analytics:
   provider               : "google"
   google:
-    tracking_id          : "G-TPGTSZS7Q3"
+    tracking_id          : "G-ERDCTZVBK8"
   goatcounter:
     code		 : #
 
@@ -122,7 +122,7 @@ author:
   ruet             : "https://www.ruet.ac.bd/arshad"
   bip              : "https://www.bip.org.bd/member-profile/2692"
   youtube          : "@ArshadontheMove"
-  datacamp         : "mdarshadulislam01"
+  datacamp         : #"mdarshadulislam01"
   kaggle           : "mdarshadulislam1"
   wikipedia        :
 

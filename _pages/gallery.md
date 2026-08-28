@@ -48,7 +48,7 @@ redirect_from:
           <img src="/images/gallery/scpl1.jpg" alt="Team engagement at Sheltech Consultants">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 2: Planning team engagement at Sheltech Consultants (Pvt.) Ltd.</em></small>
+      <small class="carousel-hint"><em>Figure 2: At SCPL office.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-scpl2" class="carousel-img-trigger">
@@ -62,7 +62,7 @@ redirect_from:
           <img src="/images/gallery/scpl2.jpg" alt="Field site visit for IUGIP Package 4">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 3: On-site verification and field data collection for IUGIP Package 04.</em></small>
+      <small class="carousel-hint"><em>Figure 3: At SCPL office.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-scpl3" class="carousel-img-trigger">
@@ -119,7 +119,7 @@ redirect_from:
           <img src="/images/gallery/planted_bdrcs2.jpeg" alt="Focus Group Discussion with Beneficiaries">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 6: Focus Group Discussion (FGD) with local project beneficiaries.</em></small>
+      <small class="carousel-hint"><em>Figure 6: Key Informant Interview (KII) with BDRCS Executive Committee Members.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
@@ -194,7 +194,7 @@ redirect_from:
           <img src="/images/gallery/pc_2022_3.jpg" alt="Departmental photo session at Planning Carnival 2022">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 10: Departmental photo session following the award ceremony.</em></small>
+      <small class="carousel-hint"><em>Figure 10: Departmental photo session with Professor Dr. Md. Abdul Wakil and Assistant Professor Authosh Das sir following the award ceremony.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-pc4" class="carousel-img-trigger">
@@ -208,7 +208,7 @@ redirect_from:
           <img src="/images/gallery/pc_2022_4.jpg" alt="Poster presentation at Planning Carnival 2022">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 11: Presenting the PRA findings and PHT facility master proposal.</em></small>
+      <small class="carousel-hint"><em>Figure 11: Photo session with team members and teachers.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
@@ -269,7 +269,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief0.jpg" alt="CESA flood relief fundraising at RUET campus">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 13: CESA members and campus clubs collecting flood relief funds.</em></small>
+      <small class="carousel-hint"><em>Figure 13: Banner of CESA and RUET clubs collecting flood relief funds.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-cesa1" class="carousel-img-trigger">
@@ -283,7 +283,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief1.jpeg" alt="CESA flood relief fundraising at RUET campus">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 14: Continued fundraising efforts among RUET student organizations for the relief campaign.</em></small>
+      <small class="carousel-hint"><em>Figure 14: Relief distribution.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-cesa2" class="carousel-img-trigger">
@@ -297,7 +297,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief2.jpeg" alt="Preparing relief packages for Banshkhali">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 15: Sorting and packaging food items and emergency supplies for Banshkhali.</em></small>
+      <small class="carousel-hint"><em>Figure 15: Moments during relief distribution.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-cesa3" class="carousel-img-trigger">
@@ -311,7 +311,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief3.jpeg" alt="Relief distribution in Banshkhali, Chattogram">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 16: On-ground relief distribution to flood-affected families in Banshkhali.</em></small>
+      <small class="carousel-hint"><em>Figure 16: Moments during relief distribution.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
