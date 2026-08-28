@@ -237,14 +237,16 @@
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        /* hide*/
       }
 
       &:hover:before {
         -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+        -ms-transform: scaleX(1);
+        transform: scaleX(1);
+        /* reveal*/
       }
     }
   }
@@ -304,6 +306,17 @@
       &:last-child {
         border-bottom: none;
       }
+    }
+  }
+
+  .visible-links a.current,
+  .hidden-links a.current {
+    font-weight: bold;
+
+    &:before {
+      -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+      transform: scaleX(1);
     }
   }
 }
