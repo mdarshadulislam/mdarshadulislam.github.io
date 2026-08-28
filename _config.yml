@@ -77,7 +77,7 @@ social:
 analytics:
   provider               : "google"
   google:
-    tracking_id          : G-TPGTSZS7Q3
+    tracking_id          : "G-TPGTSZS7Q3"
   goatcounter:
     code		 : #
 
