@@ -34,7 +34,7 @@ redirect_from:
           <img src="/images/gallery/scpl0.jpg" alt="With colleagues at Sheltech Consultants">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 1: Working with colleagues at Sheltech Consultants (Pvt.) Ltd.</em></small>
+      <small class="carousel-hint"><em>Working with colleagues at Sheltech Consultants (Pvt.) Ltd.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-scpl1" class="carousel-img-trigger">
@@ -48,7 +48,7 @@ redirect_from:
           <img src="/images/gallery/scpl1.jpg" alt="Team engagement at Sheltech Consultants">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 2: At SCPL office.</em></small>
+      <small class="carousel-hint"><em>At SCPL office.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-scpl2" class="carousel-img-trigger">
@@ -62,7 +62,7 @@ redirect_from:
           <img src="/images/gallery/scpl2.jpg" alt="Field site visit for IUGIP Package 4">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 3: At SCPL office.</em></small>
+      <small class="carousel-hint"><em>At SCPL office.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-scpl3" class="carousel-img-trigger">
@@ -76,7 +76,7 @@ redirect_from:
           <img src="/images/gallery/scpl3.jpg" alt="Fieldwork assessment for IUGIP Package 4">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 4: Spatial data verification and fieldwork assessment.</em></small>
+      <small class="carousel-hint"><em>Spatial data verification and fieldwork assessment.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
@@ -105,7 +105,7 @@ redirect_from:
           <img src="/images/gallery/planted_bdrcs1.jpeg" alt="Key Informant Interview with BDRCS Executive Committee">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 5: Key Informant Interview (KII) with BDRCS Executive Committee Members.</em></small>
+      <small class="carousel-hint"><em>Key Informant Interview (KII) with BDRCS Executive Committee Members.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-bdrcs2" class="carousel-img-trigger">
@@ -119,7 +119,7 @@ redirect_from:
           <img src="/images/gallery/planted_bdrcs2.jpeg" alt="Focus Group Discussion with Beneficiaries">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 6: Key Informant Interview (KII) with BDRCS Executive Committee Members.</em></small>
+      <small class="carousel-hint"><em>Key Informant Interview (KII) with BDRCS Executive Committee Members.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
@@ -152,7 +152,7 @@ redirect_from:
           <img src="/images/gallery/pc_2022_1.jpg" alt="Receiving prize at Planning Carnival 2022">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 7: Receiving the Champion trophy from Head of Department, Dr. Md. Kamruzzaman.</em></small>
+      <small class="carousel-hint"><em>Receiving the Champion trophy from Head of Department, Dr. Md. Kamruzzaman.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-pccert" class="carousel-img-trigger">
@@ -166,21 +166,7 @@ redirect_from:
           <img src="/images/certificates/planningcarnival_2022.jpg" alt="Champion Certificate for Planning Carnival 2022">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 8: Official certificate of achievement for Champion position.</em></small>
-    </div>
-    <div class="carousel-slide">
-      <label for="lb-pc2" class="carousel-img-trigger">
-        <img src="/images/gallery/pc_2022_2.jpg" alt="Team members at Planning Carnival 2022">
-      </label>
-      <input type="radio" name="gallery-lb" id="lb-pc2" class="lightbox-radio">
-      <div class="lightbox">
-        <label for="lb-none" class="lightbox-backdrop"></label>
-        <div class="lightbox-content">
-          <label for="lb-none" class="lightbox-close">&times;</label>
-          <img src="/images/gallery/pc_2022_2.jpg" alt="Team members at Planning Carnival 2022">
-        </div>
-      </div>
-      <small class="carousel-hint"><em>Figure 9: Celebrating success with team members at Planning Carnival 2022.</em></small>
+      <small class="carousel-hint"><em>Official certificate of achievement for Champion position.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-pc3" class="carousel-img-trigger">
@@ -194,7 +180,7 @@ redirect_from:
           <img src="/images/gallery/pc_2022_3.jpg" alt="Departmental photo session at Planning Carnival 2022">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 10: Departmental photo session with Professor Dr. Md. Abdul Wakil and Assistant Professor Authosh Das sir following the award ceremony.</em></small>
+      <small class="carousel-hint"><em>Departmental photo session with Professor Dr. Md. Abdul Wakil and Assistant Professor Authosh Das sir following the award ceremony.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-pc4" class="carousel-img-trigger">
@@ -208,7 +194,7 @@ redirect_from:
           <img src="/images/gallery/pc_2022_4.jpg" alt="Poster presentation at Planning Carnival 2022">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 11: Photo session with team members and teachers.</em></small>
+      <small class="carousel-hint"><em>Photo session with team members and teachers.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
@@ -235,7 +221,7 @@ redirect_from:
           <img src="/images/gallery/freshers_reception_vc.jpg" alt="Freshers Reception with Vice-Chancellor">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 12: With honorable Vice-Chancellor Dr. Md. Rafiqul Islam Sheikh (left) at RUET Auditorium.</em></small>
+      <small class="carousel-hint"><em>With honorable Vice-Chancellor Dr. Md. Rafiqul Islam Sheikh (left) at RUET Auditorium.</em></small>
     </div>
   </div>
 </div>
@@ -269,7 +255,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief0.jpg" alt="CESA flood relief fundraising at RUET campus">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 13: Banner of CESA and RUET clubs collecting flood relief funds.</em></small>
+      <small class="carousel-hint"><em>Banner of CESA and RUET clubs collecting flood relief funds.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-cesa1" class="carousel-img-trigger">
@@ -283,7 +269,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief1.jpeg" alt="CESA flood relief fundraising at RUET campus">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 14: Relief distribution.</em></small>
+      <small class="carousel-hint"><em>Relief distribution.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-cesa2" class="carousel-img-trigger">
@@ -297,7 +283,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief2.jpeg" alt="Preparing relief packages for Banshkhali">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 15: Moments during relief distribution.</em></small>
+      <small class="carousel-hint"><em>Moments during relief distribution.</em></small>
     </div>
     <div class="carousel-slide">
       <label for="lb-cesa3" class="carousel-img-trigger">
@@ -311,7 +297,7 @@ redirect_from:
           <img src="/images/gallery/cesa_relief3.jpeg" alt="Relief distribution in Banshkhali, Chattogram">
         </div>
       </div>
-      <small class="carousel-hint"><em>Figure 16: Moments during relief distribution.</em></small>
+      <small class="carousel-hint"><em>Moments during relief distribution.</em></small>
     </div>
   </div>
   <button class="carousel-btn next" onclick="this.previousElementSibling.scrollBy({left: 600, behavior: 'smooth'})">❯</button>
